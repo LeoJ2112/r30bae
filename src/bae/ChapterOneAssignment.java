@@ -27,7 +27,7 @@ public class ChapterOneAssignment {
     // Fill this in to print out your name, favourite movie, and favourite book.
     private static void partThree(){
         String name = "Joel";
-        String movie = "Wall-E";
+        String movie = "Whiplash";
         String book = "The Little Prince";
         System.out.println("My name is: " + name);
         System.out.println("My favourite movie is: " + movie);
