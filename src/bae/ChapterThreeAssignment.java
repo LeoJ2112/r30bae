@@ -16,9 +16,9 @@ public class ChapterThreeAssignment {
 
         // first question(numerical)
         System.out.println("How many centimeters are there in one meter?");
-        int response = scan.nextInt();
+        int intResponse = scan.nextInt();
         int intAnswer = 100;
-        if (response == intAnswer){
+        if (intResponse == intAnswer){
             System.out.println("Correct!");
             points++;
         }
@@ -29,9 +29,9 @@ public class ChapterThreeAssignment {
         // second question(multiple choice)
         System.out.println("Where is the United States of America located?");
         System.out.println("1. South America \n2. Chile \n3. Nebraska \n4. Under Canada " );
-        response = scan.nextInt();
+        intResponse = scan.nextInt();
         intAnswer = 4;
-        if (response == intAnswer){
+        if (intResponse == intAnswer){
             System.out.println("Correct!");
             points++;
         }
@@ -39,16 +39,41 @@ public class ChapterThreeAssignment {
             System.out.println("Incorrect...");
         }
 
-        // second question(numerical)
+        // third question(numerical)
         System.out.println("How many em's are in eminem?");
-        response = scan.nextInt();
+        intResponse = scan.nextInt();
         intAnswer = 2;
-        if (response == intAnswer){
+        if (intResponse == intAnswer){
             System.out.println("Correct!");
             points++;
         }
         else{
             System.out.println("Incorrect...");
         }
+
+        // fourth question(String)
+        System.out.println("February 12 is Abe Lincoln's birth___");
+        String stringResponse = scan.next();
+        String stringAnswer = "day";
+        if (stringResponse.equalsIgnoreCase(stringAnswer)){
+            System.out.println("Correct!");
+            points++;
+        }
+        else{
+            System.out.println("Incorrect...");
+        }
+
+        // fifth question(String)
+        System.out.println("Cows go ___");
+        stringResponse = scan.next();
+        stringAnswer = "moo";
+        if (stringResponse.equalsIgnoreCase(stringAnswer)){
+            System.out.println("Correct!");
+            points++;
+        }
+        else{
+            System.out.println("Incorrect...");
+        }
+        System.out.println("You got " + (double) (points)/5 * 100 + " percent");
     }
 }
