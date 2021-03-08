@@ -1,11 +1,10 @@
 // Joel Bae
 // Who Want's to Be a Millionaire?
-// Date completed
+// Mar 8
 
 // by now you should know the drill about this statement
 package bae;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ChapterThreeAssignment {
