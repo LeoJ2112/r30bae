@@ -9,6 +9,6 @@ package bae;
 // Make an instance of your Robot class in the main method and test it out
 public class RobotRunner {
     public static void main(String[] args) {
-
+        Robot robot = new Robot();
     }
 }

@@ -56,6 +56,11 @@ public class Robot {
 
     }
 
+    // set lights on or off
+    public void setLightsOn(boolean on){
+
+    }
+
     // return the name of robot
     public String getName(){
         return name;
