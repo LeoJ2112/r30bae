@@ -52,7 +52,7 @@ public class SteadyAsItGoes {
                 System.out.println("red has been pushed: " + redCount + " times");
                 }
 
-            // check for inital green press
+            // check for initial green press
             if(greenButton.getState() && !prevGreen) {
                 greenPressed = true;
                 redPressed = false;
